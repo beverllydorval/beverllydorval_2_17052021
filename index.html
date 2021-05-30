@@ -23,6 +23,7 @@
         <meta name="twitter:creator" content="@reservia">
         <!-- Twitter Summary card images must be at least 200x200px -->
         <meta name="twitter:image" content="http://www.example.com/image.jpg">
+        <script src="https://kit.fontawesome.com/e94577a417.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -41,88 +42,182 @@
         <main>
                 <section class="section01">
                         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                        <h2>En plein centre ville ou en pleine nature </h2>
+                        <p>En plein centre ville ou en pleine nature </p>
+                    <form> 
+                    <div class="champderecherche">
+                        <i class="fas fa-map-marker-alt"></i> 
+                        
+                        <input type="search" value="Marseille, France">
+                        <button>Rechercher</button>
+                    </div>
+                     </form>  
                     <div>
-                    </div>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                     <!-- 2 div ?-->  
+                        <label>
+                            Filtres
+                        </label>
+                        <span> 
+                            <i class="fas fa-map-marker-alt"></i>  <!-- Changer le Favicon-->
+                            <span></span> <!-- Texte-->
+                        </span> 
+                       
+                    </div>   
+                    
+                    <p> 
+                        <i class="fas fa-map-marker-alt"></i> <!-- Changer le Favicon-->
+                        Plus de 500 logements sont disponibles dans cette ville
+
+                    </p>
+                    
                  </section>   
+
                  <section class="section02">
-                    <h1>Hébergements à Marseille</h1>
-                    <div class="hebergements">
-                         <!-- Auberge la Cannebière et Hotel de la mer-->  
-                        <img src="#" alt="Auberge la Cannebière" />
-                        <img src="#" alt="Hotel de la mer" />
-                        <!-- Hotel du port et Auberge le panier--> 
-                        <img src="#" alt="Hotel du port" />
-                        <img src="#" alt="Auberge le panier" />
-                        <!-- Hotel les mouettes et Hotel chez amina--> 
-                        <img src="#" alt="Hotel les mouettes" />
-                        <img src="#" alt="Hotel chez Amina" />
+                    <div> 
+                        <h1>Hébergements à Marseille</h1>
+                        <div class="hebergementmarseille">
+                            <!-- Auberge la Cannebière et Hotel de la mer-->  
+                            <a href="#"> 
+                                <div class="hebergement"> 
+                                    <img src="#" alt="Auberge la Cannebière" />
+                                        <div class="descriptionhebergement">
+                                            <h2>Auberge la Cannebière</h2>
+                                            <p>Nuit à partir de 25€</p>
+                                            <span>
+                                                <i class="fas fa-map-marker-alt"></i> <!-- 5 etoiles -->
+                                            </span>
+                                        </div>
+                                </div>  
+                            </a>
+                            <!-- duppliquer div hebergement_marseille et changer les informations--> 
+
+                            <img src="#" alt="Hotel de la mer" />
+                            <!-- Hotel du port et Auberge le panier--> 
+                            <img src="#" alt="Hotel du port" />
+                            <img src="#" alt="Auberge le panier" />
+                            <!-- Hotel les mouettes et Hotel chez amina--> 
+                            <img src="#" alt="Hotel les mouettes" />
+                            <img src="#" alt="Hotel chez Amina" />
+                        </div>
+
+                        <p>Afficher plus</p>  <!-- lien qui contient un h2 ou h3 (<a>)--> 
                     </div>
-                    <p>Afficher plus</p>
+              
+                    <aside>
+                       
+                        <div class="presentation"> 
+                            <h1> Les plus populaires</h1>
+                            <i class="fas fa-map-marker-alt"></i> <!-- Changer le Favicon-->
+                        </div>
+
+                        <div class="logement4">
+                            <div> 
+                                <img src="#" alt="Hébergement Le soleil du matin" />
+                                <div>
+                                    <h2></h2>
+                                    <p>
+                                    
+                                    </p>
+                                    <span>
+                                        <i class="fas fa-map-marker-alt"></i> <!-- Changer le Favicon-->  
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div> 
+                                <img src="#" alt="Hébergement Le soleil du matin" />
+                                <div>
+                                    <h2></h2>
+                                    <p>
+                                    
+                                    </p>
+                                    <span>
+                                        <i class="fas fa-map-marker-alt"></i> <!-- Changer le Favicon-->  
+                                    </span>
+                                </div>
+                            </div>
+                            <div> 
+                                <img src="#" alt="Hébergement Le soleil du matin" />
+                                <div>
+                                    <h2></h2>
+                                    <p>
+                                    
+                                    </p>
+                                    <span>
+                                        <i class="fas fa-map-marker-alt"></i> <!-- Changer le Favicon-->  
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </aside>
                 </section>       
 
-                 <aside>
-                    <div class="presentation"> 
-                        <h1> Les plus populaires</h1>
-                    </div>
-                    <div class="illustration"> 
-                        <img src="#" alt="illustration" />
-                    </div>
-
-                    <div class="logement4">
-                        <!-- Le soleil du matin et Au coeur de l'eau hotel  et tout bleu et blanc--> 
-                        <img src="#" alt="Hébergement Le soleil du matin" />
-                        <img src="#" alt="Hébergement Au coeur de l'eau hotel" />
-                        <img src="#" alt="Hébergement tout bleu et blanc" />
-                    </div>
-                 </aside>
                  <section class= section03>
                      <h1>Activités à Marseille</h1>
-                     <div class="logement5">
-                        <!-- Vieux Port--> 
-                        <img src="#" alt="lieu Vieux Port" />
-                        <img src="#" alt="lieu Fort de Pomègues" />
-                    </div>
-                    <div class="logement6">
-                        <!-- Fort de Pomègues et Iles du Frioul --> 
-                        <img src="#" alt="lieu Fort de Pomègues" />
-                        <img src="#" alt="lieu Iles du Frioul" />
-                    </div>
-                    <div class="logement7">
-                        <!-- Parc National des Calanques--> 
-                        <img src="#" alt="lieu Parc National des Calanques" />
-                    </div>
-                    <div class="logement8">
-                        <!-- Auberge la Hotel les mouettes et Hotel chez amina--> 
-                        <img src="#" alt="lieu Notre-dame-de-la-Garde" />
-                        <img src="#" alt="lieu Parc Longchamp" />
-                    </div>
+                    <div class="activites"> 
+                        <div class="activite">
+                            <!-- Vieux Port--> 
+                            <div class="activite-1-image"> 
+                                <img src="#" alt="lieu Vieux Port" />
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="activite">
+                            <!-- Fort de Pomègues et Iles du Frioul --> 
+                            <a href="#">
+                                <div class="activite-2-image"> 
+                                    <img src="#" alt="lieu Vieux Port" />
+                                    <h2></h2>
+                                </div>
+                             </a>
+                             <a href="#">
+                                <div class="activite-2-image"> 
+                                    <img src="#" alt="lieu Vieux Port" />
+                                    <h2></h2>
+                                </div>
+                             </a>
+                        </div>
+                        <div class="activite">
+                            <div class="activite-1-image"> 
+                                <img src="#" alt="lieu Vieux Port" />
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="activite">
+                            <!-- Auberge la Hotel les mouettes et Hotel chez amina--> 
+                            <div class="activite-2-image"> 
+                                <img src="#" alt="lieu Vieux Port" />
+                                <h2></h2>
+                            </div>
+                            <div class="activite-2-image"> 
+                                <img src="#" alt="lieu Vieux Port" />
+                                <h2></h2>
+                            </div>
+                        </div>
+                    </div> 
                  </section>
 
                 <footer>
-                    <div class="footer01"> 
+                    <div class="footer-groupe"> 
+                        <h2>A propos</h2>
                         <ul class="ulfooter">
-                            <li class="tittle01">A propos</li>
                             <li>Fonctionnement du site</li>
                             <li>Conditions générales de vente</li>
                             <li>Données et confidentialité</li>
                         </ul>
                     </div>
                     
-                    <div class="footer02">
+                    <div class="footer-groupe"> 
+                        <h2>Nos hébergements</h2>
                         <ul class="ulfooter"> 
-                            <li class="tittle02">Nos hébergements</li>
-                            <li>Charte qualité</li>
+                            <li> <a href="#"> Charte qualité</a></li>
                             <li>Soumettre votre hôtel</li>
                         </ul>
                         
                     </div>
-    
-                    <div class="footer03">
+
+                    <div class="footer-groupe"> 
+                        <h2>Assistance</h2>
                         <ul class="ulfooter">
-                            <li class="tittle03">Assistance</li>
                             <li>Centre d'aide</li>
                             <li>Nous contacter</li>
                         </ul>

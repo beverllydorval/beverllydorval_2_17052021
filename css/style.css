@@ -46,8 +46,12 @@ header {
 }
 /* nav*/
 
+.ulnav {
+  display: flex;
+}
+
 .ulnav li {
-  display: inline;
+  margin: 0px 20px;
 }
 
 .ulnav {
