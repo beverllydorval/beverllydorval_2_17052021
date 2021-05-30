@@ -1,48 +1,123 @@
 /* polices personnalisées */
 
+@font-face {
+  font-family: "ralewaymedium";
+  src: url("raleway-medium-webfont.woff2") format("woff2"),
+    url("raleway-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ralewaylight";
+  src: url("raleway-light-webfont.woff2") format("woff2"),
+    url("raleway-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* elements principaux de la page */
 
-#logo img {
+#logo {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-nav {
+#section02 {
   display: flex;
-  justify-content: flex-end;
-}
-
-.section01 {
-  background-color: grey;
-  border-radius: 3px;
-}
-
-.logement1 {
-  display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .section02 {
-  background-color: grey;
-  border-radius: 3px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
 }
 
-.logement2 {
-  display: flex;
-  flex-direction: row;
+main {
+  width: auto;
+  margin: auto;
 }
+/* header*/
+
+header {
+  width: auto;
+  margin: auto;
+}
+/* nav*/
+
+.ulnav li {
+  display: inline;
+}
+
+.ulnav {
+  list-style: none;
+}
+
+/* corps */
 
 .section03 {
-  background-color: grey;
-  border-radius: 3px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
 }
 
-.logement3 {
+h1 {
+  font-family: ralewaymedium, Arial, serif;
+  font-weight: normal;
+  color: black;
+}
+
+aside {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  color: black;
+}
+
+/* footer */
+
+footer {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
+  padding-left: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 footer {
-  background-color: grey;
+  background-color: #f2f2f2;
+}
+.footer01 {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer02 {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer03 {
+  display: flex;
+  flex-direction: row;
+}
+
+.tittle01 {
+  font-weight: bold;
+}
+
+.tittle02 {
+  font-weight: bold;
+}
+
+.tittle03 {
+  font-weight: bold;
+}
+
+.ulfooter {
+  list-style: none;
+}
+
+.ulfooter {
+  list-style: none;
 }

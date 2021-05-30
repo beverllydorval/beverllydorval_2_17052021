@@ -6,50 +6,60 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reservia</title>
+        <meta name="description" content="Réservez votre prochaine location de rêve en seulement quelques clics !"> 
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Reservia"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://www.reservia.com/"/>
+        <meta property="og:image" content="http://example.com/image.jpg"/>
+        <meta property="og:description" content="Réservez votre prochaine location de rêve en seulement quelques clics"/>
+
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@reservia">
+        <meta name="twitter:title" content="Reservia">
+        <meta name="twitter:description" content="Votre prochaine location de rêve en quelques clics.">
+        <meta name="twitter:creator" content="@reservia">
+        <!-- Twitter Summary card images must be at least 200x200px -->
+        <meta name="twitter:image" content="http://www.example.com/image.jpg">
     </head>
     <body>
         <header>
                 <div id="logo">
-                    <img src="images/logo/Reservia@3x.png" alt="Logo Reservia" />
+                    <img src="images/logo/Reservia.svg" alt="Logo Reservia" />
+                    <nav>
+                        <ul class="ulnav">
+                            <li><a href="#">Hébergements</a></li>
+                            <li><a href="#">Activités</a></li>
+                            <li><a href="#">S'inscrire</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Hébergements</a></li>
-                        <li><a href="#">Activités</a></li>
-                        <li><a href="#">S'inscrire</a></li>
-                    </ul>
-                </nav>
+
         </header>
         <main>
                 <section>
+                    <div>
+
+                    </div>
                      <!-- 2 div ?-->  
                  </section>   
-                 <section class="section01">
+                 <section class="section02">
                     <h1>Hébergements à Marseille</h1>
-                    <div class="logement1">
+                    <div class="hebergements">
                          <!-- Auberge la Cannebière et Hotel de la mer-->  
                         <img src="#" alt="Auberge la Cannebière" />
                         <img src="#" alt="Hotel de la mer" />
-                    </div>
-                </section>
-
-                <section class="section02">
-                    <div class="logement2">
                         <!-- Hotel du port et Auberge le panier--> 
-                        <img src="#" alt="Auberge la Hotel du port" />
+                        <img src="#" alt="Hotel du port" />
                         <img src="#" alt="Auberge le panier" />
-                    </div>
-                </section>
-
-                
-                <section class="section03">
-                    <div class="logement3">
                         <!-- Hotel les mouettes et Hotel chez amina--> 
-                        <img src="#" alt="Auberge la Hotel les mouettes" />
+                        <img src="#" alt="Hotel les mouettes" />
                         <img src="#" alt="Hotel chez Amina" />
                     </div>
-                         <p>Afficher plus</p>
-                 </section>
+                    <p>Afficher plus</p>
+                </section>       
 
                  <aside>
                     <div class="presentation"> 
@@ -66,7 +76,7 @@
                         <img src="#" alt="Hébergement tout bleu et blanc" />
                     </div>
                  </aside>
-                 <section>
+                 <section class= section03>
                      <h1>Activités à Marseille</h1>
                      <div class="logement5">
                         <!-- Vieux Port--> 
@@ -88,10 +98,10 @@
                         <img src="#" alt="lieu Parc Longchamp" />
                     </div>
                  </section>
-        </main>
+
                 <footer>
                     <div class="footer01"> 
-                        <ul>
+                        <ul class="ulfooter">
                             <li class="tittle01">A propos</li>
                             <li>Fonctionnement du site</li>
                             <li>Conditions générales de vente</li>
@@ -100,7 +110,7 @@
                     </div>
                     
                     <div class="footer02">
-                        <ul>
+                        <ul class="ulfooter"> 
                             <li class="tittle02">Nos hébergements</li>
                             <li>Charte qualité</li>
                             <li>Soumettre votre hôtel</li>
@@ -109,12 +119,13 @@
                     </div>
     
                     <div class="footer03">
-                        <ul>
+                        <ul class="ulfooter">
                             <li class="tittle03">Assistance</li>
                             <li>Centre d'aide</li>
                             <li>Nous contacter</li>
                         </ul>
                     </div>
                 </footer>
+        </main> 
     </body>
 </html>
