@@ -6,6 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reservia</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;600&display=swap" rel="stylesheet">
+
         <meta name="description" content="Réservez votre prochaine location de rêve en seulement quelques clics !"> 
 
         <!-- Open Graph data -->
@@ -26,7 +29,7 @@
         <script src="https://kit.fontawesome.com/e94577a417.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
+        <header class="main_header_section">
                 <div id="header_section">
                     <img src="images/logo/Reservia.svg" alt="Logo Reservia" />
                     <nav class="header_navigation">
@@ -86,7 +89,7 @@
                     
                  </section>   
 
-                 <section class="section02">
+                 <section class="hosting_section">
                     <div> 
                         <h1>Hébergements à Marseille</h1>
                         <div class="hebergementmarseille">
@@ -97,14 +100,18 @@
                                         <div class="descriptionhebergement">
                                             <h2>Auberge la Cannebière</h2>
                                             <p>Nuit à partir de 25€</p>
-                                            <span>
-                                                <i class="fas fa-map-marker-alt"></i> <!-- 5 etoiles -->
+                                            <span class="hosting_rating">
+                                                <i class="fas fa-star fa-star--activate"></i>
+                                                <i class="fas fa-star fa-star--activate"></i>
+                                                <i class="fas fa-star fa-star--activate"></i>
+                                                <i class="fas fa-star fa-star--activate"></i>
+                                                <i class="fas fa-star fa-star--deactivate"></i>
                                             </span>
                                         </div>
                         </div>  
                             </a>
                             <!-- duppliquer div hebergement_marseille et changer les informations--> 
-
+                            
                             <img src="#" alt="Hotel de la mer" />
                             <!-- Hotel du port et Auberge le panier--> 
                             <img src="#" alt="Hotel du port" />
@@ -117,13 +124,15 @@
                         <p>Afficher plus</p>  <!-- lien qui contient un h2 ou h3 (<a>)--> 
                     </div>
               
-                    <aside>
-                       
-                        <div class="presentation"> 
+                    <aside class="more_popular_hosting_section">
+                        <a href="#"> 
+                        <div> 
                             <h1> Les plus populaires</h1>
                             <i class="fas fa-map-marker-alt"></i> <!-- Changer le Favicon-->
                         </div>
+                        </a>
 
+                        <a href="#"> 
                         <div class="logement4">
                             <div> 
                                 <img src="#" alt="Hébergement Le soleil du matin" />
@@ -132,12 +141,17 @@
                                     <p>
                                     
                                     </p>
-                                    <span>
+                                    <span class="hosting_rating">
                                         <i class="fas fa-map-marker-alt"></i> <!-- Changer le Favicon-->  
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <i class="fas fa-map-marker-alt"></i>
                                     </span>
                                 </div>
                             </div>
-
+                        </a>
+                            <a href="#"> 
                             <div> 
                                 <img src="#" alt="Hébergement Le soleil du matin" />
                                 <div>
@@ -150,6 +164,8 @@
                                     </span>
                                 </div>
                             </div>
+                            </a>
+                            <a href="#"> 
                             <div> 
                                 <img src="#" alt="Hébergement Le soleil du matin" />
                                 <div>
@@ -162,20 +178,24 @@
                                     </span>
                                 </div>
                             </div>
+                            </a>
+                
 
                         </div>
                     </aside>
                 </section>       
 
-                 <section class= section03>
+                 <section class= "activities_section">
                      <h1>Activités à Marseille</h1>
                     <div class="activites"> 
                         <div class="activite">
                             <!-- Vieux Port--> 
-                            <div class="activite-1-image"> 
-                                <img src="#" alt="lieu Vieux Port" />
-                                <h2></h2>
-                            </div>
+                            <a href="#"> 
+                                <div class="activite-1-image"> 
+                                    <img src="#" alt="lieu Vieux Port" />
+                                    <h2></h2>
+                                </div>
+                            </a>
                         </div>
                         <div class="activite">
                             <!-- Fort de Pomègues et Iles du Frioul --> 
@@ -193,49 +213,55 @@
                              </a>
                         </div>
                         <div class="activite">
-                            <div class="activite-1-image"> 
-                                <img src="#" alt="lieu Vieux Port" />
-                                <h2></h2>
-                            </div>
+                            <a href="#">
+                                <div class="activite-1-image"> 
+                                    <img src="#" alt="lieu Vieux Port" />
+                                    <h2></h2>
+                                </div>
+                            </a> 
                         </div>
                         <div class="activite">
                             <!-- Auberge la Hotel les mouettes et Hotel chez amina--> 
-                            <div class="activite-2-image"> 
-                                <img src="#" alt="lieu Vieux Port" />
-                                <h2></h2>
-                            </div>
-                            <div class="activite-2-image"> 
-                                <img src="#" alt="lieu Vieux Port" />
-                                <h2></h2>
-                            </div>
+                            <a href="#"> 
+                                <div class="activite-2-image"> 
+                                    <img src="#" alt="lieu Vieux Port" />
+                                    <h2></h2>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="activite-2-image"> 
+                                    <img src="#" alt="lieu Vieux Port" />
+                                    <h2></h2>
+                                </div>
+                            </a>
                         </div>
                     </div> 
                  </section>
 
-                <footer>
+                <footer class='footer_section'>
                         <div class="footer-groupe"> 
-                        <h2>A propos</h2>
+                        <h2><a href="#">A propos</a></h2>
                         <ul class="ulfooter">
-                            <li>Fonctionnement du site</li>
-                            <li>Conditions générales de vente</li>
-                            <li>Données et confidentialité</li>
+                            <li><a href="#">Fonctionnement du site</a></li>
+                            <li><a href="#">Conditions générales de vente</a></li>
+                            <li><a href="#">Données et confidentialité</a></li>
                         </ul>
                     </div>
                     
                     <div class="footer-groupe"> 
-                        <h2>Nos hébergements</h2>
+                        <h2><a href="#">Nos hébergements</a></h2>
                         <ul class="ulfooter"> 
-                            <li> <a href="#"> Charte qualité</a></li>
-                            <li>Soumettre votre hôtel</li>
+                            <li><a href="#">Charte qualité</a></li>
+                            <li><a href="#">Soumettre votre hôtel</a></li>
                         </ul>
                         
                     </div>
 
                     <div class="footer-groupe"> 
-                        <h2>Assistance</h2>
+                        <h2><a href="#">Assistance</a></h2>
                         <ul class="ulfooter">
-                            <li>Centre d'aide</li>
-                            <li>Nous contacter</li>
+                            <li><a href="#">Centre d'aide</a></li>
+                            <li><a href="#">Nous contacter</a></li>
                         </ul>
                     </div>
                 </footer>

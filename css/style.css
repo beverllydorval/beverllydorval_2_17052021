@@ -1,22 +1,10 @@
 /* polices personnalisées */
 
-@font-face {
-  font-family: "ralewaymedium";
-  src: url("raleway-medium-webfont.woff2") format("woff2"),
-    url("raleway-medium-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ralewaylight";
-  src: url("raleway-light-webfont.woff2") format("woff2"),
-    url("raleway-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* elements principaux de la page */
+
+body {
+  font-family: "Raleway", sans-serif;
+}
 
 #header_section {
   display: flex;
@@ -63,27 +51,26 @@ header {
 }
 
 .search_section_input {
-border: var(--color-shade) solid 1px;
-border-right: transparent;
-font-weight: bold;
-width: 90%;
-padding: .7rem;
+  border: var(--color-shade) solid 1px;
+  border-right: transparent;
+  font-weight: bold;
+  width: 90%;
+  padding: 0.7rem;
 }
 
 .search_section_button {
   color: white;
-    font-weight: bold;
-    background-color: var(--color-primary);
-    border: transparent;
-    border-radius: 0 1rem 1rem 0;
-    padding: .75rem;
-    position: absolute;
-    margin: 0;
-    cursor: pointer
+  font-weight: bold;
+  background-color: var(--color-primary);
+  border: transparent;
+  border-radius: 0 1rem 1rem 0;
+  padding: 0.75rem;
+  position: absolute;
+  margin: 0;
+  cursor: pointer;
 }
 
 .search_section_button {
-  
   display: none;
 }
 /* nav*/
@@ -108,7 +95,7 @@ padding: .7rem;
 }
 
 h1 {
-  font-family: ralewaymedium, Arial, serif;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   color: black;
 }
