@@ -6,57 +6,110 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-main {
-  width: auto;
-  margin: auto;
+.main {
+  margin: 0 78px;
 }
-/* header*/
 
-header {
-  width: auto;
-  margin: auto;
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */ {
+  color: black; /* Appliquer une couleur noir */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  color: black;
 }
 
 .main_section {
-  margin: 1rem 1rem 1rem 1rem;
+  
   box-sizing: border-box;
 }
 
-.search_section {
-  background-color: var(--color-shade);
-  width: var(--width-search-bar);
-  padding: 0;
-  padding-left: 1.5rem;
-  border-radius: 1rem;
+.hosting_section {
+ 
 }
 
+.main_activities_section {
+  padding-left: 1.5rem;
+}
+
+/* header*/
+
+.main_header_section {
+ 
+}
+
+#header_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_section {
+  
+}
+
+#hosting_category {
+
+}
+
+.main_search_section_title {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
 .search_section {
-  width: 87%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.fa, .fas {
+  padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    font-weight: 900;
+
 }
 
 .search_section_input {
-  border: var(--color-shade) solid 1px;
-  border-right: transparent;
+  border: 1px solid #f2f2f2;
   font-weight: bold;
-  width: 90%;
-  padding: 0.7rem;
+  padding: 5px;
 }
 
 .search_section_button {
   color: white;
-  font-weight: bold;
-  background-color: var(--color-primary);
-  border: transparent;
-  border-radius: 0 1rem 1rem 0;
-  padding: 0.75rem;
-  position: absolute;
-  margin: 0;
-  cursor: pointer;
+  padding: 0px 20px;
+  background-color: blue;
+  border: none;
+  border-radius: 0 15px 15px 0;
 }
 
-.search_section_button {
-  display: none;
+.filter_icon {
+  border: 1px solid grey;
+  border-radius: 30px;
+  border-left: none;
+
+
 }
+
+.filter_icon > i {
+  border-radius: 100%;
+  
+}
+
+.filter_icon > span {
+  padding: 0px 20px;
+}
+
+.user_filter_selection {
+  display: flex;
+  align-items: center;
+}
+
 /* nav*/
 
 .ulnav {
@@ -71,28 +124,273 @@ header {
   list-style: none;
 }
 
-/* corps */
+/* hosting section */
 
-#hosting_section {
+#hosting_category {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color: #f2f2f2;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.hosting_section {
   display: flex;
   justify-content: space-between;
 }
 
-.hosting_section {
-  background-color: #f2f2f2;
-  border-radius: 5px;
+.hosting_name {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-h1 {
-  font-family: "Raleway", sans-serif;
+.hosting_card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+}
+
+.hosting_image {
+  background-size: cover;
+  width: 280px;
+  height: 100px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+}
+
+.price_description {
+  font-size: 15px;
   font-weight: normal;
-  color: black;
 }
 
-aside {
+.hosting_card {
+  border-radius: 30px 30px 30px 30px;
+  padding: 10px 10px 10px 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.hosting_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.hosting_description {
+  padding: 2px 16px;
+}
+
+/* rating element ; fa-star favicon */
+
+.fa-star-activate {
+  color: #0066ff;
+}
+
+.fa-star-desactivate {
+  color: #cccccc;
+}
+
+/* aside section  */
+
+.popular_tittle {
+  font-size: 18px;
+  font-weight: 300;
+}
+.fa-star-graph {
+  margin-top: 20px;
+}
+
+.popular_hosting_card,
+.popular_hosting_image {
+  display: flex;
+}
+
+.popular_hosting_card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+}
+
+.popular_hosting_card {
+  border-radius: 30px 30px 30px 30px;
+  padding: 10px 10px 10px 10px;
+}
+/* On mouse-over, add a deeper shadow */
+.popular_hosting_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popular_hosting_image {
+  background-size: cover;
+  width: 160px;
+  height: 150px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 30px;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+}
+
+/* Add some padding inside the card container */
+.hosting_description {
+  padding: 2px 16px;
+}
+
+.popular_hosting_name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.popular_price_description {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.popular_hosting_tittle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.more_popular_hosting_section {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.more_popular_hosting_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.more_popular_hosting_section {
+  position: relative;
+  color: white;
+  font-size: 0.9em;
   background-color: blue;
   border-radius: 5px;
-  color: black;
+}
+
+/* activities section  */
+
+#activities_category {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  border-radius: 30px 30px 30px 30px;
+}
+
+
+.section_activities_tittle {
+  padding-left: 1.5rem;
+}
+
+.activities_name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Add some padding inside the card container */
+.activities_description {
+  padding: 2px 16px;
+}
+
+.main_activities_section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+.activities_section {
+  padding-left: 1.5rem;
+  margin-top: 20px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.activities_card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+}
+
+.activities_tittle {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.activities_card {
+  border-radius: 30px 30px 30px 30px;
+  padding: 10px 10px 10px 10px;
+}
+/* On mouse-over, add a deeper shadow */
+.activities_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.activities_image {
+  background-size: cover;
+  width: 250px;
+  height: 300px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.activities_card_two {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+}
+
+.activities_two_tittle {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.activities_card_two {
+  border-radius: 30px 30px 30px 30px;
+  padding: 10px 10px 10px 10px;
+}
+/* On mouse-over, add a deeper shadow */
+.activities_card_two:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.activities_image_two {
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.activities_card_one {
+  display: flex;
+  flex-direction: column;
+}
+
+.activities_card_two {
+  display: flex;
+  flex-direction: row;
+}
+
+.activites_card_one,
+.activities_card_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* footer */
@@ -109,6 +407,13 @@ footer {
 footer {
   background-color: #f2f2f2;
 }
+
+.footer_tittle {
+  font-size: 18px;
+  padding-left: 1.5rem;
+  font-weight: 800;
+}
+
 .footer01 {
   display: flex;
   flex-direction: row;
