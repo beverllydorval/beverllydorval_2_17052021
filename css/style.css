@@ -82,8 +82,8 @@ h1 {
 
 .search_section_button {
   color: white;
-  padding: 0px 20px;
-  background-color: blue;
+  padding: 0px 15px;
+  background-color: #0033ff;
   border: none;
   border-radius: 0 15px 15px 0;
 }
