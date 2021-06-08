@@ -83,7 +83,7 @@ h1 {
 .search_section_button {
   color: white;
   padding: 0px 15px;
-  background-color: #0033ff;
+  background-color: #0066ff;
   border: none;
   border-radius: 0 15px 15px 0;
 }
@@ -129,50 +129,54 @@ h1 {
 #hosting_category {
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
+  justify-content: space-evenly;
   background-color: #f2f2f2;
   border-radius: 30px 30px 30px 30px;
 }
 
+.hosting_src_img {
+  width: 100%;
+  height: 7rem;
+  object-fit: cover;
+}
+
 .hosting_section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .hosting_name {
   font-size: 18px;
   font-weight: bold;
+  margin: 9px 0px 0px 0px;
 }
 
+
+.hosting_rating {
+  margin: 0px;
+}
+.hosting_rating > i{
+  font-size: 15px;
+  padding: 0px;
+  
+}
 .hosting_card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background-color: white;
+  /* margin and padding of the card */
+  border-radius: 30px 30px 30px 30px;
+  padding: 2px;
+  margin: 15px 0px 15px 0px;
 }
 
 .hosting_image {
   background-size: cover;
-  width: 280px;
-  height: 100px;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top: solid 1px white;
-  border-bottom: solid 1px white;
-  border-left: solid 1px white;
-  border-right: solid 1px white;
-}
-
-.price_description {
-  font-size: 15px;
-  font-weight: normal;
-}
-
-.hosting_card {
-  border-radius: 30px 30px 30px 30px;
-  padding: 10px 10px 10px 10px;
+  width: 226px;
+  height: 118px;
+  border-radius: 30px 30px 0px 0px;
+  
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -180,19 +184,31 @@ h1 {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Add some padding inside the card container */
-.hosting_description {
-  padding: 2px 16px;
+.price_description {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 7px 0px 6px 1px;
+}
+
+.hosting_card {
+
+}
+
+
+.read_more {
+  font-size: 18px;
 }
 
 /* rating element ; fa-star favicon */
 
 .fa-star-activate {
   color: #0066ff;
+  background-color: white;
 }
 
 .fa-star-desactivate {
   color: #cccccc;
+  background-color: white;
 }
 
 /* aside section  */
@@ -200,6 +216,7 @@ h1 {
 .popular_tittle {
   font-size: 18px;
   font-weight: 300;
+  margin: 30px 29px 0px 0px;
 }
 .fa-star-graph {
   margin-top: 20px;
@@ -258,25 +275,25 @@ h1 {
 .popular_hosting_tittle {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 5px;
+  margin-top: 0px;
 }
 
-.more_popular_hosting_section {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
 
 .more_popular_hosting_section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-.more_popular_hosting_section {
+  justify-content: space-evenly;
+  margin-left: 39px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   color: white;
   font-size: 0.9em;
   background-color: blue;
   border-radius: 5px;
 }
+
+
 
 /* activities section  */
 
