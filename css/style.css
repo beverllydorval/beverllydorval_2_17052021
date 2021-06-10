@@ -7,7 +7,7 @@ body {
 }
 
 .main {
-  margin: 0 78px;
+  margin: 0 50px;
 }
 
 
@@ -236,8 +236,27 @@ h1 {
 }
 
 .popular_hosting_card,
-.popular_hosting_image {
+.popular_hosting_src_img {
   display: flex;
+}
+
+.popular_hosting_src_img {
+  width: 125px;
+  height: 117px;
+  object-fit: cover;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.popular_hosting_rating  {
+  padding: 0px 0px 0px 4px;
+}
+
+.popular_hosting_rating > i{
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+  
+  
 }
 
 .popular_hosting_card {
@@ -245,6 +264,9 @@ h1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  padding: 4px;
+  margin: 20px 0px 20px 0px;
 }
 
 .popular_hosting_card {
@@ -276,13 +298,18 @@ h1 {
 }
 
 .popular_hosting_name {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
+  padding: 4px 0px 0px 3px;
+  margin: 0px 0px 8px 2px;
 }
 
 .popular_price_description {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: normal;
+  padding: 0px 10px 14px 4px;
+  margin: 0px 0px 8px 0px;
+}
 }
 
 .popular_hosting_tittle {
@@ -297,13 +324,13 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-left: 39px;
+  margin-left: 40px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   color: white;
   font-size: 0.9em;
-  background-color: blue;
-  border-radius: 5px;
+  background-color: #f2f2f2;
+    border-radius: 30px;
 }
 
 
