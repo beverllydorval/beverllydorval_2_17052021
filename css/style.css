@@ -26,13 +26,9 @@ h1 {
 }
 
 .main_section {
-  
   box-sizing: border-box;
 }
 
-.hosting_section {
- 
-}
 
 .main_activities_section {
   padding-left: 1.5rem;
@@ -41,7 +37,7 @@ h1 {
 /* header*/
 
 .main_header_section {
- 
+  padding: 15px 0px 15px 0px;
 }
 
 #header_section {
@@ -60,6 +56,13 @@ h1 {
 .main_search_section_title {
   margin-bottom: 5px;
   margin-top: 0px;
+  font-size: 22px;
+  margin: 0px;
+}
+
+.main_search_section_subtitle {
+  font-size: 14px;
+  margin: 7px 2px 18px 0px;
 }
 .search_section {
   display: flex;
@@ -68,10 +71,13 @@ h1 {
 
 .fa, .fas {
   padding: 15px;
-    background-color: #f2f2f2;
-    border-radius: 15px 0px 0px 15px;
-    font-weight: 900;
+  background-color: #DEEBFD;
+  border-radius: 15px 0px 0px 15px;
+  font-weight: 900;
 
+}
+.fas fa-map-marker-alt {
+  font-size: 15px;
 }
 
 .search_section_input {
@@ -89,16 +95,20 @@ h1 {
 }
 
 .filter_icon {
-  border: 1px solid grey;
+  margin: 0px 20px 0px 0px;
+  border: 1px solid #CCCCCC;
   border-radius: 30px;
   border-left: none;
-
-
+  box-shadow: 0 0px 1px 0 rgb(136 136 136);
+  transition: 0.3s;
 }
 
 .filter_icon > i {
   border-radius: 100%;
-  
+}
+
+.fas fa-money-bill-wave {
+  color: #0033FF;
 }
 
 .filter_icon > span {
@@ -110,18 +120,29 @@ h1 {
   align-items: center;
 }
 
+.label {
+  margin: 0px 20px 0px 0px;
+  font-weight: 700;
+}
+
+.information_text {
+  font-size: 16px;
+}
+
 /* nav*/
 
 .ulnav {
   display: flex;
+  font-size: 14px;
+  list-style: none;
 }
 
 .ulnav li {
   margin: 0px 20px;
+  font-size: 14px;
 }
 
 .ulnav {
-  list-style: none;
 }
 
 /* hosting section */
@@ -154,24 +175,26 @@ h1 {
 
 .hosting_choice {
   background-color: #f2f2f2;
-    border-radius: 30px 30px 30px 30px;
-    padding: 0px;
+  border-radius: 30px 30px 30px 30px;
+  padding: 0px;
 }
+
 .section_hosting_tittle {
   margin: 35px 0px 5px 50px;
 }
 .section_tittle {
   margin: 0px;
-
 }
+
 .hosting_rating {
   margin: 0px;
 }
+
 .hosting_rating > i{
   font-size: 12px;
   padding: 0px;
-  
 }
+
 .hosting_card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -231,6 +254,7 @@ h1 {
   font-weight: 300;
   margin: 30px 29px 0px 0px;
 }
+
 .fa-star-graph {
   margin-top: 20px;
 }
@@ -238,6 +262,8 @@ h1 {
 .popular_hosting_card,
 .popular_hosting_src_img {
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .popular_hosting_src_img {
@@ -247,6 +273,9 @@ h1 {
   border-radius: 20px 0px 0px 20px;
 }
 
+.popular_hosting_description {
+  margin: 0px 0px 0px 13px;
+}
 .popular_hosting_rating  {
   padding: 0px 0px 0px 4px;
 }
@@ -255,7 +284,6 @@ h1 {
   font-size: 12px;
   padding: 0px;
   margin: 0px;
-  
 }
 
 .popular_hosting_card {
@@ -269,8 +297,7 @@ h1 {
 }
 
 .popular_hosting_card {
-  border-radius: 30px 30px 30px 30px;
-  padding: 10px 10px 10px 10px;
+ 
 }
 /* On mouse-over, add a deeper shadow */
 .popular_hosting_card:hover {
@@ -309,7 +336,7 @@ h1 {
   padding: 0px 10px 14px 4px;
   margin: 0px 0px 8px 0px;
 }
-}
+
 
 .popular_hosting_tittle {
   display: flex;
@@ -323,13 +350,14 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 15px 40px 0px 40px;
   margin-left: 40px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   color: white;
-  font-size: 0.9em;
+  font-size: 14px;
   background-color: #f2f2f2;
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 
@@ -354,19 +382,32 @@ h1 {
   font-size: 15px;
   font-weight: bold;
 }
+
 .activities_src_img {
   width: 265px;
   height: 333px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
+}
 
+.activities_src_img {
+  width: 265px;
+  height: 333px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.activities_src_img {
+  width: 265px;
+  height: 333px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .acitivites_src_img_two {
   width: 50px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
 }
 
 /* Add some padding inside the card container */
@@ -392,7 +433,10 @@ h1 {
   transition: 0.3s;
   background-color: white;
   border-radius: 30px 30px 30px 30px;
-  
+}
+
+.activities_card_bis {
+
 }
 
 .activities_tittle {
@@ -435,6 +479,7 @@ h1 {
 .activities_card_two {
 
 }
+
 /* On mouse-over, add a deeper shadow */
 .activities_card_two:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -485,6 +530,7 @@ footer {
   font-size: 18px;
   padding-left: 1.5rem;
   font-weight: 800;
+  margin: 0px 0px 0px 16px;
 }
 
 .footer01 {
