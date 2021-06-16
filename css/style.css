@@ -4,6 +4,7 @@
 
 * {
   font-family: "Raleway", sans-serif;
+  color: black;
 }
 
 .main {
@@ -21,12 +22,13 @@ a:link {
 
 h1 {
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   color: black;
 }
 
 .main_section {
   box-sizing: border-box;
+  margin-top: 20px;
 }
 
 .fa, .fas {
@@ -48,10 +50,12 @@ h1 {
 
 .filter_icon > i {
   border-radius: 100%;
+  height: 16px;
 }
 
 .filter_icon > span {
   padding: 0px 20px;
+  font-weight: 700;
 }
 
 
@@ -75,23 +79,28 @@ h1 {
 }
 
 .main_search_section_subtitle {
-  font-size: 14px;
+  font-size: 15px;
   margin: 7px 2px 18px 0px;
 }
+
 .search_section {
   display: flex;
   margin-bottom: 20px;
 }
 
 
-.fas fa-map-marker-alt {
+.fa-map-marker-alt {
   font-size: 15px;
+  background-color: #F2F2F2F2;
+  padding: 16px;
+
 }
 
 .search_section_input {
   border: 1px solid #f2f2f2;
   font-weight: bold;
-  padding: 5px;
+  padding: 9px;
+  font-size: 14px;
 }
 
 .search_section_button {
@@ -99,10 +108,12 @@ h1 {
   padding: 0px 15px;
   background-color: #0066ff;
   border: none;
-  border-radius: 0 15px 15px 0;
+  font-size: 14px;
+  border-radius: 0px 15px 15px 0px;
 }
 
-.fas fa-money-bill-wave {
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
   color: #0033FF;
 }
 
@@ -111,9 +122,24 @@ h1 {
   align-items: center;
 }
 
-.label {
-  margin: 0px 20px 0px 0px;
+#filter_label {
+  font-size: 17px;
   font-weight: 700;
+  margin-right: 23px;
+  
+}
+
+.information_text > .fas, .fa {
+  background-color: lightblue;
+}
+
+.fa-info-circle {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  font-size: 40px;
+  border-radius: 100%;
+  border: 1px solid #CCCCCC;
 }
 
 .information_text {
@@ -169,7 +195,7 @@ h1 {
 }
 
 .section_hosting_tittle {
-  margin: 35px 0px 5px 50px;
+  margin: 35px 0px 5px 35px;
 }
 
 .section_tittle {
@@ -223,7 +249,7 @@ h1 {
 
 .read_more {
   font-size: 18px;
-  margin: 10px 0px 0px 50px;
+  margin: 20px 0px 20px 50px;
 }
 
 /* rating element ; fa-star favicon */
@@ -241,13 +267,15 @@ h1 {
 /* aside section  */
 
 .popular_tittle {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 700;
   margin: 30px 29px 0px 0px;
 }
 
 .fa-star-graph {
   margin-top: 20px;
+  background-color: transparent;
+  font-size: 21px;
 }
 
 .popular_hosting_card,
@@ -351,7 +379,9 @@ h1 {
 
 /* activities section  */
 
-
+.main_acitivites_section {
+  margin: 50px 0px 0px 0px;
+}
 
 #activities_category {
   display: flex;
@@ -567,4 +597,10 @@ footer {
 
 .ulfooter {
   list-style: none;
+  margin-top: 20px;
+}
+
+
+.ulfooter > li {
+  margin-top: 15px;
 }
