@@ -43,9 +43,10 @@
                 <img class="logoreservia" src="images/logo/Reservia.svg" alt="Logo Reservia">
                 <nav class="header_navigation">
                     <ul class="ulnav">
-                        <li> <a class="header_navigation__selection01" href="#accommodation">Hébergements</a></li>
-                        <li><a class="header_navigation__selection02" href="#activity">Activités</a></li>
-                        <li><a class="header_navigation__selection03" href="#">S'inscrire</a> </li>
+                        <li class="header_navigation__selection01"> <a href="#accommodation">Hébergements</a></li>
+                        <li class="header_navigation__selection02"> <a href="#activity">Activités</a></li>
+                        <li class="header_navigation__selection03"> <a class="subscribe_link" href="#">S'inscrire</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -62,7 +63,12 @@
                 <div class="search_section">
                     <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                     <input class="search_section_input" type="search" value="Marseille, France">
-                    <button class="search_section_button">Rechercher</button>
+                    <button class="search_section_button">
+                        <span class="research_bloc">
+                            <i class="fas fa-search"></i>
+                            <p class="research_text"> Rechercher</p>
+                        </span>
+                    </button>
                 </div>
                 <div class="filter_section">
                     <div class="user_filter_selection">
@@ -256,67 +262,70 @@
                     </div>
                 </a>
 
-                <a href="#">
+                <div class="popular_hosting_group">
+                    <a href="#">
 
-                    <div class="popular_hosting_card">
-                        <img class="popular_hosting_src_img" src="images/hebergements/4_small/hotellesoleildumatin.jpg"
-                            alt="Hotel Le soleil du matin">
-                        <div class="popular_hosting_description">
-                            <h2 class="popular_hosting_name">Hôtel Le soleil du matin</h2>
-                            <p class="popular_price_description">Nuit à partir de 128€</p>
-                            <span class="popular_hosting_rating">
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                            </span>
+                        <div class="popular_hosting_card">
+                            <img class="popular_hosting_src_img"
+                                src="images/hebergements/4_small/hotellesoleildumatin.jpg"
+                                alt="Hotel Le soleil du matin">
+                            <div class="popular_hosting_description">
+                                <h2 class="popular_hosting_name">Hôtel Le soleil du matin</h2>
+                                <p class="popular_price_description">Nuit à partir de 128€</p>
+                                <span class="popular_hosting_rating">
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                </span>
+                            </div>
                         </div>
-                    </div>
 
-                </a>
+                    </a>
 
-                <a href="#">
-                    <div class="popular_hosting_card">
-                        <img class="popular_hosting_src_img"
-                            src="images/hebergements/4_small/aucoeurdeleauchambredhotes.jpg"
-                            alt="Au coeur de l'eau chambre d'hôtes">
-                        <div class="popular_hosting_description">
-                            <h2 class="popular_hosting_name">Au coeur de l'eau Chambres d'hôtes</h2>
-                            <p class="popular_price_description">Nuit à partir de 71€</p>
-                            <span class="popular_hosting_rating">
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-desactivate" aria-hidden="true"></i>
-                            </span>
+                    <a href="#">
+                        <div class="popular_hosting_card">
+                            <img class="popular_hosting_src_img"
+                                src="images/hebergements/4_small/aucoeurdeleauchambredhotes.jpg"
+                                alt="Au coeur de l'eau chambre d'hôtes">
+                            <div class="popular_hosting_description">
+                                <h2 class="popular_hosting_name">Au coeur de l'eau Chambres d'hôtes</h2>
+                                <p class="popular_price_description">Nuit à partir de 71€</p>
+                                <span class="popular_hosting_rating">
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-desactivate" aria-hidden="true"></i>
+                                </span>
 
+                            </div>
                         </div>
-                    </div>
 
-                </a>
+                    </a>
 
-                <a href="#">
-                    <div class="popular_hosting_card">
-                        <img class="popular_hosting_src_img" src="images/hebergements/4_small/hoteltoutbleuetblanc.jpg"
-                            alt="Hotel Tout bleu et Blanc">
-                        <div class="popular_hosting_description">
-                            <h2 class="popular_hosting_name">Hôtel Tout bleu et Blanc</h2>
-                            <p class="popular_price_description">Nuit à partir de 68€</p>
-                            <span class="popular_hosting_rating">
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
-                                <i class="fas fa-star fa-star-desactivate" aria-hidden="true"></i>
-                            </span>
+                    <a href="#">
+                        <div class="popular_hosting_card">
+                            <img class="popular_hosting_src_img"
+                                src="images/hebergements/4_small/hoteltoutbleuetblanc.jpg"
+                                alt="Hotel Tout bleu et Blanc">
+                            <div class="popular_hosting_description">
+                                <h2 class="popular_hosting_name">Hôtel Tout bleu et Blanc</h2>
+                                <p class="popular_price_description">Nuit à partir de 68€</p>
+                                <span class="popular_hosting_rating">
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-activate" aria-hidden="true"></i>
+                                    <i class="fas fa-star fa-star-desactivate" aria-hidden="true"></i>
+                                </span>
 
+                            </div>
                         </div>
-                    </div>
 
-                </a>
-
+                    </a>
+                </div>
             </aside>
         </section>
 
