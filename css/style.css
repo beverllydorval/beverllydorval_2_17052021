@@ -39,6 +39,18 @@ h1 {
 
 }
 
+
+.filter_icon {
+  transition-duration: 0.6s;
+}
+
+.filter_icon:hover {
+  border: 1px solid #DEEBFD;
+  box-shadow: 0 0px 1px 0 rgb(136 136 136);
+  color: white;
+  border-left: none;
+}
+
 .filter_icon {
   margin: 0px 20px 0px 0px;
   border: 1px solid #CCCCCC;
@@ -60,6 +72,40 @@ h1 {
 
 
 /* header*/
+
+      /* header section */
+
+    .header_navigation__selection01:hover {
+        border-top: 2px solid #0066ff;
+        top: 45px;
+
+    }
+  
+    .header_navigation__selection02:hover {
+      border-top: 2px solid #0066ff;
+      top: 45px;
+    }
+
+    .header_navigation__selection03:hover {
+      border-top: 2px solid #0066ff;
+      top: 45px;
+    }
+
+      .header_navigation__selection01 > a {
+        color: #0066ff;
+        font-weight: 600;
+
+      }
+
+      .header_navigation__selection02 {
+        color: #f2f2f2;
+        font-weight: 500;
+      }
+
+      .header_navigation__selection03 > a {
+        color:#0066ff;
+        font-weight: 700;
+      }
 
 .main_header_section {
   padding: 15px 0px 15px 0px;
@@ -101,6 +147,15 @@ h1 {
   font-weight: bold;
   padding: 9px;
   font-size: 14px;
+
+}
+
+.research_bloc > i {
+  display: none;
+}
+
+.research_bloc > p {
+  color: white;
 }
 
 .search_section_button {
@@ -110,6 +165,7 @@ h1 {
   border: none;
   font-size: 14px;
   border-radius: 0px 15px 15px 0px;
+
 }
 
 
@@ -130,22 +186,57 @@ h1 {
   
 }
 
-.information_text > .fas, .fa {
-  background-color: #0033FF;
+.information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.fa-info {
+.information_text > .fas, .fa {
+  
+  color:#0066ff;
+  padding: 0px 20px;
+  font-weight: 700;
+  
+}
+
+
+
+.fa-info > i {
+  background-color: transparent;
+}
+
+.information_favicon {
+  margin: 0px 10px 0px 0px;
+}
+
+.information_favicon > i {
+background-color: transparent;
+border: 1px solid #CCCCCC;
+border-radius: 80px;
+height: 9px;
+padding: 6px 10px 10px 10px;
+color: #0065FC;
+font-size: 13px;
+}
+
+/*
+.information_favicon > i {
+  
   padding: 0px;
   margin: 0px;
   color: white;
   font-size: 20px;
   border-radius: 100%;
   border: 1px solid #CCCCCC;
+
 }
 
-.information_text {
-  font-size: 16px;
-}
+*/
+
+
+
+
 
 /* nav*/
 
@@ -262,11 +353,12 @@ h1 {
 .popular_tittle {
   font-size: 24px;
   font-weight: 700;
-  margin: 30px 29px 0px 0px;
+  margin: 0px 29px 0px 0px;
 }
 
 .fa-star-graph {
-  margin-top: 20px;
+  margin: 0;
+  padding: 6px;
   background-color: transparent;
   font-size: 21px;
 }
@@ -335,7 +427,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   margin-bottom: 5px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 
@@ -731,6 +823,8 @@ h1 {
   background-color: #0033FF;
 }
 
+
+
 .fa-info {
   padding: 0px;
   margin: 0px;
@@ -740,9 +834,18 @@ h1 {
   border: 1px solid #CCCCCC;
 }
 
+
+.information_favicon > i {
+  margin: 0;
+}
+
 .information_text {
   font-size: 16px;
-  margin: 25px 0px 50px 0px;
+}
+
+.information_text > p {
+  margin: 0;
+  padding: 0;
 }
 
 /* nav*/
@@ -866,10 +969,10 @@ h1 {
 }
 
 .fa-star-graph {
-  margin: 0px 25px 0px 0px;
+  margin: 0px 50px 0px 0px;
+  padding: 0;
   background-color: transparent;
   font-size: 23px;
-  padding: 1px;
 }
 
 .popular_hosting_group {
@@ -954,7 +1057,7 @@ h1 {
   flex-direction: column;
   justify-content: space-around;
   padding: 0;
-  margin: 0;
+  margin: 25px 0px 0px 0px;
   box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
   color: white;
   font-size: 14px;
@@ -1237,10 +1340,11 @@ footer {
         top: 20px;
         right: 15px;
       }
+      .header_navigation__selection03 > a {
 
-      .subscribe_link {
         color: #0065FC;
       }
+    
 
       .main_header_section {
         padding: 15px 0px 15px 0px;
@@ -1328,6 +1432,11 @@ footer {
       margin: 0;
       color: white;
     }
+
+    .research_bloc > i {
+      display: contents;
+    }
+   
 
     .research_text {
       display: none;
@@ -1522,7 +1631,7 @@ footer {
       flex-direction: column;
       justify-content: space-evenly;
       padding: 0px;
-      margin: 0px;
+    
       box-shadow: none;
       color: white;
       font-size: 14px;
