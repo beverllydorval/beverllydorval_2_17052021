@@ -718,6 +718,11 @@ footer {
     font-weight: 600;
   }
 
+  .header_navigation__selection03 > a {
+    color: #0066ff;
+    font-weight: 900;
+  }
+
   .main_header_section {
     padding: 15px 0px 15px 0px;
   }
