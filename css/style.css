@@ -209,19 +209,7 @@ h1 {
   font-size: 13px;
 }
 
-/*
-.information_favicon > i {
-  
-  padding: 0px;
-  margin: 0px;
-  color: white;
-  font-size: 20px;
-  border-radius: 100%;
-  border: 1px solid #CCCCCC;
 
-}
-
-*/
 
 /* nav*/
 
@@ -349,7 +337,7 @@ h1 {
 .popular_hosting_src_img {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  
 }
 
 .popular_hosting_src_img {
@@ -667,89 +655,22 @@ footer {
     margin: 0 20px;
   }
 
-  a:visited { 
-  }
 
-  a:link {
-   
-  }
-
-  h1 {
-   
-  }
-
-  .main_section {
-  
-  }
-
-  .fa,
-  .fas {
-   
-  }
 
   .filter_icon {
     margin: 10px 20px 10px 0px;
     
   }
 
-  .filter_icon > i {
-   
-  }
-
-  .filter_icon > span {
-   
-  }
 
   /* header*/
 
-  .header_navigation__selection01 > a {
-  
-  }
-
-  .header_navigation__selection03 > a {
-  
-  
-  }
-
-  .main_header_section {
-   
-  }
-
-  #header_section {
-    
-  }
-
-  .main_search_section_title {
-   
-  }
-
-  .main_search_section_subtitle {
-
-  }
-
-  .search_section {
-   
-  }
-
-  .fa-map-marker-alt {
-
-  }
 
   .search_section_input {
     
     width: 73%;
   }
 
-  .search_section_button {
-   
-  }
-
-  .fa-money-bill-wave,
-  .fa-child,
-  .fa-heart,
-  .fa-dog {
-    
-  }
 
   .user_filter_selection {
    
@@ -776,32 +697,13 @@ footer {
     border: 1px solid #cccccc;
   }
 
-  .information_favicon > i {
-   
-  }
-
-  .information_text {
-    
-  }
 
   .information_text > p {
     margin: 0;
     
   }
 
-  .research_text {
-    
-  }
 
-  /* nav*/
-
-  .ulnav {
-   
-  }
-
-  .ulnav li {
-   
-  }
 
   /* hosting section */
 
@@ -811,9 +713,7 @@ footer {
   
   }
 
-  .hosting_src_img {
-   
-  }
+ 
 
   .hosting_section {
    
@@ -836,56 +736,22 @@ footer {
    
   }
 
-  .section_tittle {
-   
-  }
-
-  .hosting_rating {
- 
-  }
-
-  .hosting_rating > i {
-
-  }
-
-  .hosting_card {
-    /* Add shadows to create the "card" effect */
-
-  }
 
   /* Add some padding inside the card container */
   .hosting_description {
     padding: 13px 3px 18px 20px;
   }
 
-  /* On mouse-over, add a deeper shadow */
-  .hosting_card:hover {
-
-  }
-
-  .price_description {
- 
-  }
 
   .read_more {
     margin: 20px 0px 0px 35px;
   }
 
-  /* rating element ; fa-star favicon */
 
-  .fa-star-activate {
-  
-  }
-
-  .fa-star-desactivate {
-   
-  }
 
   /* aside section  */
 
-  .popular_tittle {
-    
-  }
+
 
   .fa-star-graph {
     margin: 0px 50px 0px 0px;
@@ -900,11 +766,7 @@ footer {
     
     margin-left: 35px;
   }
-  .popular_hosting_card,
-  .popular_hosting_src_img {
-   
-  }
-
+  
   .popular_hosting_src_img {
     width: 56%;
     height: 150px;
@@ -917,9 +779,7 @@ footer {
     width: 60%;
   }
 
-  .popular_hosting_rating {
-  
-  }
+
 
   .popular_hosting_rating > i {
     font-size: 15px;
@@ -932,11 +792,6 @@ footer {
     width: 93%;
   }
 
-  /* On mouse-over, add a deeper shadow */
-  .popular_hosting_card:hover {
-
-  }
-  
 
   .popular_hosting_name {
     font-size: 18px;
@@ -965,18 +820,6 @@ footer {
   }
 
   /* activities section  */
-
-  .main_acitivites_section {
-    
-  }
-
-  #activities_category {
-  
-  }
-
-  .section_activities_tittle {
-   
-  }
 
   .activities_name {
  
@@ -1007,22 +850,13 @@ footer {
 
   }
 
-  .acitivites_src_img_two {
-  
-  }
+
 
   /* Add some padding inside the card container */
   .activities_description {
     padding: 0px 0px 0px 10px;
   }
 
-  .main_activities_section {
-   
-  }
-
-  .activities_section {
- 
-  }
 
   .activities_card {
     /* Add shadows to create the "card" effect */
@@ -1039,14 +873,6 @@ footer {
    
   }
 
-  /* On mouse-over, add a deeper shadow */
-  .activities_card:hover {
-    
-  }
-
-  .activities_image {
-   
-  }
 
   .activities_card_two {
     width: 45%;
@@ -1057,31 +883,12 @@ footer {
     margin-top: 20px;
   }
 
-  .div02 {
-
-  }
-
+ 
   .div03 {
-   
-    
-   
     margin-top: 20px;
   }
 
-  .activities_two_tittle {
-  
-  }
-
-
-
-  .activities_image_two {
-   
-  }
-
-  .activites_card_one,
-  .activities_card_two {
-  
-  }
+ 
 
   /* footer */
 
@@ -1089,30 +896,13 @@ footer {
     flex-wrap: wrap;
   }
 
-  footer {
-  
-  }
 
-  .footer-groupe {
-    
-  }
+ 
 
   .footer_tittle {
    
     margin: 0;
     padding: 13px;
-  }
-
-  .footer01 {
- 
-  }
-
-  .footer02 {
-    
-  }
-
-  .footer03 {
-    
   }
 
 
@@ -1122,9 +912,7 @@ footer {
     padding: 13px;
   }
 
-  .ulfooter > li {
   
-  }
 }
 
 /* responsive mobile */
@@ -1139,9 +927,7 @@ footer {
 
   /* header section */
 
-  .header_navigation__selection01 > a {
-   
-  }
+  
 
   .header_navigation__selection01 {
     color: #0065fc;
@@ -1284,7 +1070,7 @@ footer {
 
   .hosting_src_img {
     width: 100%;
-    height: 107px;
+    height: 150px;
  
   }
 
@@ -1293,9 +1079,6 @@ footer {
     flex-wrap: wrap-reverse;
   }
 
-  .hosting_name {
-
-  }
 
   #hosting_choice {
     background-color: white;
@@ -1309,36 +1092,14 @@ footer {
     margin: 35px 0px 5px 0px;
   }
 
-  .section_tittle {
-
-  }
-
-  .hosting_rating {
-  
-  }
-
-  .hosting_rating > i {
-   
-  }
-
-  .hosting_card {
-    /* Add shadows to create the "card" effect */
-
-  }
-
-  /* Add some padding inside the card container */
-  .hosting_description {
-  
-  }
+ 
 
   /* On mouse-over, add a deeper shadow */
   .hosting_card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
 
-  .price_description {
 
-  }
 
   .read_more {
    
@@ -1349,7 +1110,7 @@ footer {
 
   .popular_tittle {
   
-    margin: 30px 29px 0px 5px;
+    margin: 30px 29px 0px 15px;
   }
 
   .fa-star-graph {
@@ -1358,40 +1119,13 @@ footer {
     margin: 35px 25px 0px 0px;
   }
 
-  .popular_hosting_card,
-  .popular_hosting_src_img {
-  
-    
-  }
+
 
   .popular_hosting_src_img {
-    width: 200px;
+    width: 150px;
 
   }
 
-  .popular_hosting_description {
-   
-  }
-
-  .popular_hosting_rating {
- 
-  }
-
-  .popular_hosting_rating > i {
- 
-  }
-
-  .popular_hosting_card {
-
-  }
-
-  .popular_hosting_name {
- 
-  }
-
-  .popular_price_description {
-
-  }
 
   .popular_hosting_tittle {
   
@@ -1402,8 +1136,7 @@ footer {
 
   .popular_hosting_group {
     display: flex;
-    align-items: center;
-    margin: 0;
+    margin-left: 15px;
   }
 
   .more_popular_hosting_section {
@@ -1457,13 +1190,7 @@ footer {
    
   }
 
-  .activities_src_img_01 {
-  
-  }
 
-  .activities_src_img_02 {
-  
-  }
 
   .activities_src_img_03 {
    
