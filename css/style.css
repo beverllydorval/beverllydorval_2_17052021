@@ -403,7 +403,6 @@ h1 {
 .more_popular_hosting_section {
   padding: 40px 40px 0px 40px;
   margin-left: 40px;
-  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
   color: white;
   font-size: 14px;
   background-color: #f2f2f2;
@@ -703,6 +702,12 @@ footer {
     
   }
 
+  /* nav */
+
+  .ulnav li {
+    margin: 0;
+    font-size: 14px;
+  }
 
 
   /* hosting section */
@@ -869,10 +874,6 @@ footer {
     margin-top: 20px;
   }
 
-  .activities_tittle {
-   
-  }
-
 
   .activities_card_two {
     width: 45%;
@@ -954,9 +955,6 @@ footer {
     color: #0065fc;
   }
 
-  .main_header_section {
-   
-  }
 
   .logoreservia {
     width: 100px;
