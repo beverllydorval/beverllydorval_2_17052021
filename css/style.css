@@ -605,8 +605,6 @@ footer {
 }
 
 .footer_section_groupe {
-  display: flex;
-  flex-direction: row;
   max-width: 1400px;
   margin: 0 auto;
 
@@ -1059,6 +1057,7 @@ footer {
     
   }
 
+
   #hosting_category > a {
     width: 100%
   }
@@ -1080,7 +1079,7 @@ footer {
     border-radius: 30px 30px 30px 30px;
     padding: 0px;
     width: 100%;
-    margin: 0;
+    margin: 0 15px;
   }
 
   .section_hosting_tittle {
@@ -1156,8 +1155,6 @@ footer {
   #activities_category {
    
     flex-direction: column;
-    
-   
     align-content: center;
   }
 
